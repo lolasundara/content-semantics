@@ -2,90 +2,83 @@
 <html lang="en-ca"> <!-- Sets the language to Canadian English -->
 <head>
   <meta charset="utf-8">
-  <title>Solar Systems</title>
+  <title>HTML template</title>
+  <meta name="viewport" content="device-width,initial-scale=1">
 </head>
 <body>
 
   <!-- All the HTML content goes here -->
 
-<h1>Beetroot</h1>
-<i>Beta vilgaris</i>
+  <header>
+    <h1>Beetroot</h1>
+    <i> (Beta vilgaris) </i>
+    <nav>
+      <ol>
+        <li>Common varieties</li>
+        <li>Nutritional information</li>
+        <li>Tags</li>
+      </ol>
+    </nav>
+  </header>
 
-<nav>
-  <ol>
-    <li>Common varieties</li>
-    <li>Nutritional information</li>
-    <li>Tags</li>
-  </ol>
-</nav>
+  <main>
+    <figure>
+      <img src="beets.jpg">
+      <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
+    </figure>
+    <p>  <time datetime="P55D">55 to 65</time> days are needed from germination to harvest of the root.</p>
+    <p>The usually deep purple roots of <b>beetroot</b> are eaten either frilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.</p>
+    <p>In fact <cite>Jim Halpert</cite> once said this about beets,<q>Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i></q>
 
-<main>
-  <figure>
-    <img src="beets.jpg">
-    <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
-  </figure>
-  <time datetime="55 to 65"></time> days are needed from germination to harvest of the root.
-  <p>The usually deep purple roots of <b>beetroot</b> are eaten either frilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.
-  </p>
-  <p>In fact <cite>Jim Halpert</cite> once said this about beets,<q>Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i></q>
-  <blockquote>I have some <em>weird</em> habits. For instance, <strong>I love beets.</strong> Show me a salad bar and I will clean them out of their beets.<cite>-Chris Pratt</cite>
+    <blockquote>I have some <em>weird</em> habits. For instance, <strong>I love beets.</strong> Show me a salad bar and I will clean them out of their beets.<cite>-Chris Pratt</cite>
   </blockquote>
 </main>
 
-<article>
-  <h2>Common varieties</h2>
+  <article>
+    <h2>Common varieties</h2>
+    <ol>
+      <li>Albino</li>
+      <li>Bull's Blood</li>
+      <li>Chioggia</li>
+      <li>Detroit Dark Red</li>
+      <li>Early Wonder</li>
+    </ol>
+    <h2>Nutritional information</h2>
+    <p>Serving size:<data value="100">100 g </data></p>
 
-  <ol>
-    <li>Albino</li>
-    <li>Bull's Blood</li>
-    <li>Chioggia</li>
-    <li>Detroit Dark Red</li>
-    <li>Early Wonder</li>
-  </ol>
-
-  <h2>Nutritional information</h2>
-
-  <dl>
-    <dt>Seving size:</dt>
+    <dl>
+      <dt> Energy: </dt>
       <dd>
-        <data>100g</data>
+        <data value="180">180kJ</data>
       </dd>
-
-    <dt>Energy</dt>
+    <dt> Carbohydrates: </dt>
       <dd>
-        <data>180kJ</data>
+        <data value="9.96">9.96ga</data>
       </dd>
-    <dt>Carbohydrates</dt>
+    <dt> Fat: <dt>
       <dd>
-        <data>9.96ga</data>
+        <data value="0.18">0.18g</data>
       </dd>
-    <dt>Fat<dt>
+    <dt> Protein: </dt>
       <dd>
-        <data>0.18g</data>
+        <data value="1.68">1.68g</data>
       </dd>
-    <dt>Protein</dt>
-      <dd>
-        <data>1.68g</data>
-      </dd>
-  </dl>
-</article>
+    </dl>
+  </article>
 
-<aside>
-  <h2>Tags</h2>
-
-  <ul>
-    <li>Crimson</li>
-    <li>Awesome</li>
-    <li>Pickle-able</li>
-    <li>Vegetable!</li>
-    <li>Delicious</li>
-  </ul>
-</aside>
-
-<footer
-  <small>Source: <a href"wikipedia.com">Wikipedia</a> : Last modified: <time>Aug 30, 2014</time></small>
-
-</footer>
+  <aside>
+    <h2>Tags</h2>
+    <ul>
+      <li>Crimson</li>
+      <li>Awesome</li>
+      <li>Pickle-able</li>
+      <li>Vegetable!</li>
+      <li>Delicious</li>
+    </ul>
+  </aside>
+  <footer
+    <small> Source <a href="wikipedia.com">Wikipedia</a> : Last modified: <time datetime="2014-08-30">Aug 30, 2014"</time></small>
+  </footer>
 
 </body>
 </html>
